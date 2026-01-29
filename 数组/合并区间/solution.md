@@ -27,7 +27,7 @@ intervals[i].length == 2
 0 <= starti <= endi <= 104
 
 ## 解法一：排序+遍历
-```JavaScript
+```javascript
 var merge = function(intervals) {
     //边界处理
     if (intervals.length === 1){
