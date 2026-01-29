@@ -1,4 +1,4 @@
-<img width="456" height="102" alt="image" src="https://github.com/user-attachments/assets/221d2ed4-bf28-443e-a148-850b6a63971a" />```markdown
+```markdown
 # 题目名称
 合并数组
 
@@ -54,6 +54,7 @@ var merge = function(intervals) {
     }
     return result;
 };
+```
 ```markdown
 ## 思路：
 1.先排序，后面才方便比较。
@@ -63,7 +64,8 @@ var merge = function(intervals) {
 ## 思考：
 1.while和for的区别
   疑问：这里为什么要用while，而不用for？明明会遍历每一个区间，循环次数是确定的。
-  答：首先，循环次数并不是确定的，虽然整体来说会遍历每一个区间，但分为外层循环和内层循环，也就是说，外层循环次数加上内层循环次数是确定的，但他们分别循环次数是不确定的，因此不能用for，而用while。
+  答：首先，循环次数并不是确定的，虽然整体来说会遍历每一个区间，但分为外层循环和内层循环，
+  也就是说，外层循环次数加上内层循环次数是确定的，但他们分别循环次数是不确定的，因此不能用for，而用while。
   简单来理解，while是跳跃式前进，比如i = j；for是顺序遍历，比如i++。
   除此之外，在写法上，while的循环变量在外部定义，for的循环变量在内部定义。
 
