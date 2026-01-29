@@ -52,7 +52,7 @@ var productExceptSelf = function(nums) {
 2. 将两数组相乘得到结果数组。
 
 ### 思考：
- **1.while和for的区别**  
+ **如何理解"前缀""前缀"**  
  
   **疑问：**
   这里为什么要用while，而不用for？明明会遍历每一个区间，循环次数是确定的。
